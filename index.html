@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventosJS</title>
+</head>
+<body style="margin: auto auto; height: 100%; width: 20%;">
+    <main>
+        <h1>ObjtosJS</h1>
+
+        <p>
+            const objeto = {
+                marca: "Fiat",
+                modelo: "Toro",
+                ano: 2020,
+                status: function(){
+                    return "O carro " + this.modelo + " da marca " + this.marca + " do ano " + this.ano;
+                }
+            }
+            
+            console.log(objeto.status());
+        </p>
+    </main>
+</body>
+</html>
